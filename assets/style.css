@@ -1,0 +1,22 @@
+body {
+  color: #777;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+.header {
+  box-shadow: 0 0px 0px #c2c5c6, 0 3px 5px #c2c5c6;;
+}
+
+.wrapper {
+  margin: auto;
+  width: 1135px;
+}
+
+
+.logo-img img {
+  margin: 27px 0 30px 0;
+  width: 135px;
+  height: 35px; 
+}
+
