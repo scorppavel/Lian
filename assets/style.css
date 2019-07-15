@@ -4,19 +4,44 @@ body {
   background-color: #fff;
 }
 
+li {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
 .header {
-  box-shadow: 0 0px 0px #c2c5c6, 0 3px 4px #c2c5c6;;
+  box-shadow: 0 0 0 #c2c5c6, 0 3px 5px #c2c5c6;
 }
 
 .wrapper {
+  display: flex;
   margin: auto;
   width: 1135px;
 }
 
+.main-menu {
+  margin: auto;
+}
 
 .logo-img img {
+  padding-right: 425px;
   margin: 27px 0 30px 0;
   width: 135px;
   height: 35px; 
 }
+
+.main-menu li {
+  text-transform: uppercase;
+  padding-right: 45px;
+}
+
+.main-menu ul {
+  display: flex;
+}
+
+
 
