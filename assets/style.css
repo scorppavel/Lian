@@ -28,7 +28,7 @@ a {
 }
 
 .logo-img img {
-  padding-right: 425px;
+  padding-right: 415px;
   margin: 27px 0 30px 0;
   width: 135px;
   height: 35px; 
@@ -42,6 +42,19 @@ a {
 .main-menu ul {
   display: flex;
 }
+
+.active {
+  color: #000;
+}
+
+.active::before {
+  content: " ";
+  display: inline-block;
+  border: 1px solid #000;
+  width: 15px;
+  margin-right: 10px;
+  vertical-align: middle;  
+  } 
 
 
 
