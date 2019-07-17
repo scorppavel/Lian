@@ -56,5 +56,32 @@ a {
   vertical-align: middle;  
   } 
 
+  .action {
+    background: url('/assets/img/mainbackground.png') no-repeat;
+    margin: auto;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-align: center;
+    width: 1600px;
+    padding-top: 460px;
+    padding-bottom: 281px;
+  }
+
+  .action-text {
+    letter-spacing: 5px;
+    width: 750px;
+    height: 70px;
+    font-size: 48px;
+    margin: auto;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 25px;  
+  }
+
 
 
