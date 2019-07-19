@@ -44,17 +44,14 @@ a {
 }
 
 .active {
-  color: #000;
+  display: flex;
 }
 
 .active::before {
-  content: " ";
-  display: inline-block;
-  border: 1px solid #000;
-  width: 15px;
+  content: "";
   margin-right: 10px;
-  vertical-align: middle;  
-  } 
+  border-bottom: 1px solid #000;
+ } 
 
   .action {
     background: url('/assets/img/mainbackground.png') no-repeat;
