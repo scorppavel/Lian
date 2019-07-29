@@ -28,7 +28,7 @@ a {
 }
 
 .logo-img img {
-  padding-right: 425px;
+  padding-right: 415px;
   margin: 27px 0 30px 0;
   width: 135px;
   height: 35px; 
@@ -42,6 +42,43 @@ a {
 .main-menu ul {
   display: flex;
 }
+
+.active {
+  display: flex;
+}
+
+.active::before {
+  content: "";
+  margin-right: 10px;
+  border-bottom: 1px solid #000;
+ } 
+
+  .action {
+    background: url('/assets/img/mainbackground.png') no-repeat;
+    margin: auto;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-align: center;
+    width: 1600px;
+    padding-top: 230px;
+    padding-bottom: 281px;
+  }
+
+  .action-text {
+    letter-spacing: 5px;
+    width: 750px;
+    height: 70px;
+    font-size: 48px;
+    margin: auto;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 25px;  
+  }
 
 
 
