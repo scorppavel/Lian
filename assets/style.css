@@ -4,6 +4,7 @@ body {
   background-color: #fff;
 }
 
+
 li {
   list-style: none
 }
@@ -50,35 +51,101 @@ a {
 .active::before {
   content: "";
   margin-right: 10px;
-  border-bottom: 1px solid #000;
- } 
+  border: 1px solid #000;
+} 
 
-  .action {
-    background: url('/assets/img/mainbackground.png') no-repeat;
-    margin: auto;
-    text-transform: uppercase;
-    color: #000;
-    font-size: 18px;
-    letter-spacing: 7px;
-    text-align: center;
-    width: 1600px;
-    padding-top: 230px;
-    padding-bottom: 281px;
-  }
+.action {
+  background: url('/assets/img/mainbackground.png') no-repeat;
+  margin: auto;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 7px;
+  text-align: center;
+  width: 1600px;
+  padding-top: 230px;
+  padding-bottom: 281px;
+}
 
-  .action-text {
-    letter-spacing: 5px;
-    width: 750px;
-    height: 70px;
-    font-size: 48px;
-    margin: auto;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #000;
-    text-align: center;
-    padding-top: 15px;
-    margin-bottom: 25px;  
-  }
+.action-text {
+  letter-spacing: 5px;
+  width: 750px;
+  height: 70px;
+  font-size: 48px;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #000;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 25px;  
+}
 
+.category {
+  margin-bottom: 25px;
+}
 
+.category ul {
+  display: flex;
+  margin: auto;
+  margin-top: 35px;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 25px;
+  width: 1145px;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
 
+.category li {
+  margin-right: 20px;
+}
+
+.category li::before {
+  content: "";
+  margin-right: 20px;
+  border: 1px solid #e1e1e1;
+}
+
+.first_line {
+  display: flex;
+  justify-content: center;
+}
+
+.pfirst_line .bottles {
+  width: 95%;
+  height: 100%;
+}
+
+.first_line .furniture {
+  margin-left: 35px;
+  width: 75%;
+  height: 55%;
+}
+
+.pfirst_line .many_chears {
+  margin-left: 35px;
+  width: 55%;
+  height: 100%;
+}
+
+.second_line {
+  display: flex;
+  margin-left: 35px;
+  width: 55%;
+  height: 100%;
+}
+
+.third_line {
+  display: flex;
+  margin-left: 35px;
+  width: 55%;
+  height: 100%;
+}
+
+.forth_line {
+  display: flex;
+  margin-left: 35px;
+  width: 55%;
+  height: 100%;
+}
